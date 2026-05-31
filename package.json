@@ -1,5 +1,5 @@
 {
-  "name": "@meltwater/mlabs-logger",
+  "name": "@pureskillgg/mlabs-logger",
   "version": "9.1.1",
   "description": "Standard logger for mlabs services.",
   "type": "module",
@@ -12,15 +12,16 @@
   "sideEffects": false,
   "keywords": [
     "meltwater",
+    "pureskillgg",
     "node"
   ],
-  "homepage": "https://github.com/meltwater/mlabs-logger",
-  "bugs": "https://github.com/meltwater/mlabs-logger/issues",
-  "repository": "meltwater/mlabs-logger",
+  "homepage": "https://github.com/pureskillgg/mw-mlabs-logger",
+  "bugs": "https://github.com/pureskillgg/mw-mlabs-logger/issues",
+  "repository": "pureskillgg/mw-mlabs-logger",
   "license": "MIT",
   "author": {
     "name": "Evan Sosenko",
-    "email": "evan.sosenko@meltwater.com"
+    "email": "evan@pureskill.gg"
   },
   "files": [
     "yarn.lock",
@@ -122,7 +123,7 @@
     "standard": "^16.0.2"
   },
   "dependencies": {
-    "@meltwater/examplr": "^7.0.0",
+    "@pureskillgg/examplr": "^7.0.0",
     "bunyan-formatter": "^1.0.0",
     "debug": "^4.0.1",
     "pino": "^7.6.5"
