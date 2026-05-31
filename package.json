@@ -1,6 +1,6 @@
 {
   "name": "@pureskillgg/mlabs-logger",
-  "version": "9.1.1",
+  "version": "9.1.2",
   "description": "Standard logger for mlabs services.",
   "type": "module",
   "main": "dist/index.cjs",
