@@ -5,6 +5,40 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [9.2.3] / 2026-06-02
+
+### Changed
+
+- Update publish workflow (remove Sentry release step).
+
+## [9.2.2] / 2026-06-02
+
+### Changed
+
+- Use yarn instead of npm in the publish workflow.
+
+## [9.2.1] / 2026-06-02
+
+### Changed
+
+- Add missing dependency installation step to the publish workflow.
+
+## [9.2.0] / 2026-06-02
+
+### Changed
+
+- Add build step before publishing to npm.
+
+## [9.1.2] / 2026-05-31
+
+### Changed
+
+- Migrate from Meltwater to PureSkill.gg:
+  rename package to `@pureskillgg/mlabs-logger`,
+  switch to the `@pureskillgg/examplr` dependency,
+  and update repository metadata.
+- Update GitHub Actions workflows.
+
 ## [9.1.1] / 2022-02-14
 
 ### Changed
@@ -325,7 +359,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 [makenew-node-lib]: https://github.com/meltwater/makenew-node-lib
 [Pino]: https://github.com/pinojs/pino
 
-[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v9.1.1...HEAD
+[Unreleased]: https://github.com/meltwater/mlabs-logger/compare/v9.2.3...HEAD
+[9.2.3]: https://github.com/meltwater/mlabs-logger/compare/v9.2.2...v9.2.3
+[9.2.2]: https://github.com/meltwater/mlabs-logger/compare/v9.2.1...v9.2.2
+[9.2.1]: https://github.com/meltwater/mlabs-logger/compare/v9.2.0...v9.2.1
+[9.2.0]: https://github.com/meltwater/mlabs-logger/compare/v9.1.2...v9.2.0
+[9.1.2]: https://github.com/meltwater/mlabs-logger/compare/v9.1.1...v9.1.2
 [9.1.1]: https://github.com/meltwater/mlabs-logger/compare/v9.1.0...v9.1.1
 [9.1.0]: https://github.com/meltwater/mlabs-logger/compare/v9.0.0...v9.1.0
 [9.0.0]: https://github.com/meltwater/mlabs-logger/compare/v8.0.0...v9.0.0
