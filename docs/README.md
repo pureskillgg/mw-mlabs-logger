@@ -4,7 +4,6 @@
 
 - [`createLogger(options)`](#createloggeroptions)
 - [`destination`](#destination)
-- [`final`](#final)
 
 ### Importing
 
@@ -67,14 +66,8 @@ To use the production logger, do not set `outputMode`, `t`, or `noop`.
 
 The [`destination` method from Pino][pino.destination].
 
----
-### final
-
-The [`final` method from Pino][pino.final].
-
 [AVA]: https://github.com/avajs/ava
 [Pino]: https://github.com/pinojs/pino
 [pino.destination]: https://getpino.io/#/docs/api?id=pino-destination
-[pino.final]: https://getpino.io/#/docs/api?id=pinofinallogger-handler-gt-function-finallogger
 [bunyan-formatter]: https://www.npmjs.com/package/bunyan-formatter
 [debug]: https://github.com/visionmedia/debug
