@@ -1,6 +1,6 @@
 {
   "name": "@pureskillgg/mlabs-logger",
-  "version": "10.0.0",
+  "version": "10.0.1",
   "description": "Standard logger for mlabs services.",
   "type": "module",
   "main": "index.js",
