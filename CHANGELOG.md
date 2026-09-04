@@ -10,8 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### Changed
 
 - Harden the deploy workflows.
-
-- Update GitHub Actions to Node 24 runtimes.
+- Update GitHub Actions to Node.js 24 runtimes.
 
 ## [9.2.3] / 2026-06-02
 
