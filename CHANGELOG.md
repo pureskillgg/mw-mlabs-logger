@@ -9,9 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
-- Harden the deploy workflows: pass the version input through `env:` instead of interpolating it into the shell line; give the dispatch and tag workflows readable run titles; give every job a timeout.
-
-- GitHub Actions updated to Node 24 runtimes: `actions/checkout` v5 to v7; `actions/setup-node` v5 to v6.
+- Harden the deploy workflows.
+- Update GitHub Actions to Node.js 24 runtimes.
 
 ## [9.2.3] / 2026-06-02
 
@@ -41,10 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
-- Migrate from Meltwater to PureSkill.gg:
-  rename package to `@pureskillgg/mlabs-logger`,
-  switch to the `@pureskillgg/examplr` dependency,
-  and update repository metadata.
+- Rename package to `@pureskillgg/mlabs-logger`, switch to `@pureskillgg/examplr`, and update repository metadata.
 - Update GitHub Actions workflows.
 
 ## [9.1.1] / 2022-02-14
